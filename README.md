@@ -6,4 +6,4 @@ Usefull bash scripts
 	this is my code
 	and some more
 	
->Do get that?	
+>Do you get that?	
