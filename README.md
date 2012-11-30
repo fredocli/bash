@@ -1,7 +1,7 @@
 bash
 ====
 
-Usefull bash scripts
+### Usefull bash scripts
 
 	this is my code
 	and some more
