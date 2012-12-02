@@ -15,6 +15,14 @@
 	chmod +x ./imageTobase64.sh
 
 	# Create a symlink into the nautilus-scripts folder
-	ln -s $(realpath ./imageTobase64MD.sh) 
+	ln -s $(realpath ./imageTobase64MD.sh)  ~/.gnome2/nautilus-scripts/imageTobase64MD
+	ln -s $(realpath ./imageTobase64MD.sh)  /usr/bin/imageTobase64MD
 
-## Note
+## Usage 
+* in a terminal
+ 
+>imageTobase64 logo.png
+
+* With nautilus
+
+>left clik -->scripts-->imageTobase64
