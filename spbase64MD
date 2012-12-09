@@ -1,0 +1,39 @@
+#! /usr/bin/env bash
+
+
+TEXTDOMAIN=shutter-plugins
+TEXTDOMAINDIR=$SHUTTER_INTL
+PLUGIN_NAME=$"base64MD"
+PLUGIN_SORT=$"convert"
+PLUGIN_TIP=$"Convert image to base64 markdown tag"
+PLUGIN_EXT="image/png"
+
+if [[ "${1}" = "name" ]];then
+   	echo "${PLUGIN_NAME}"
+    exit 0
+elif [[ "${1}" = "sort" ]];then
+    echo "${PLUGIN_SORT}"
+    exit 0
+elif [[ "${1}" = "tip" ]];then
+    echo "${PLUGIN_TIP}"
+    exit 0
+elif [[ "${1}" = "ext" ]];then
+    echo "${PLUGIN_EXT}"
+    exit 0
+fi
+
+FILE="${1}"
+#~ WIDTH="${2}"
+#~ HEIGHT="${3}"
+#FILEYTPE="${4}"
+#GEO="${2}x${3}"
+
+
+# Converte do base64 with markdown tag 
+# and send to the clipboard 
+
+imageTobase64MD "${FILE}" 
+
+exit 0
+
+ 
