@@ -1,4 +1,3 @@
-
 ## Requirement
 
 	sudo apt-get install diodon diodon-plugins
@@ -31,12 +30,12 @@
 
 * In a terminal
 
-    # imageTobase64 logo.png
+	`imageTobase64 logo.png`
 	
 * With nautilus
 
->Open nautilus --> select a png file --> Left clik --> scripts --> imageTobase64
+	Open nautilus --> select a png file --> Left clik --> scripts --> imageTobase64
 
 * With shutter
 
-> Take a screenshot --> run plugin --> base64MD
+	Take a screenshot --> run plugin --> base64MD
