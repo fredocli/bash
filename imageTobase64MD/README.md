@@ -1,5 +1,4 @@
 
-
 ## Requirement
 
 	sudo apt-get install diodon diodon-plugins
@@ -29,10 +28,11 @@
 
 
 ## Usage 
-* In a terminal
- 
-># imageTobase64 logo.png
 
+* In a terminal
+
+    # imageTobase64 logo.png
+	
 * With nautilus
 
 >Open nautilus --> select a png file --> Left clik --> scripts --> imageTobase64
